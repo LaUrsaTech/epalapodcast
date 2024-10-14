@@ -7,7 +7,15 @@
     #lastEpisode{
         max-width: 25%;
     }
+   
+    #lastEpisode:hover {
+        transition: max-width 0.4s ease;
+        max-width: 30% !important;
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem white;
+        cursor: pointer;
+    }
 }
+
  
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #2f2bad;
@@ -43,14 +51,27 @@ h1{
     color: #c4cce2;
 }
 
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
 
-#lastEpisode:hover {
+a:hover{
     transition: max-width 0.4s ease;
     max-width: 30% !important;
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem white;
+    color: #c4cce2 !important;
     cursor: pointer;
 }
 
-a{
-    text-decoration: none !important;
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: 600;
 }
+
