@@ -31,8 +31,8 @@ body {
 }
 
 .btn-danger {
-    background-color: #f71568 !important;
-    border-color: #f71568 !important;
+    background-color: #06D9B6 !important;
+    border-color: #06D9B6 !important;
 }
 .btn-danger:hover {
     background-color: #c4cce2 !important;
@@ -68,7 +68,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aqua;
+    background-color: #A4F479;
     text-align: center;
     padding: 5px;
     color: black;
